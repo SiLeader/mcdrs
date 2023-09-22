@@ -1,0 +1,15 @@
+[package]
+name = "endpoint"
+version = "0.1.0"
+edition.workspace = true
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+async-trait.workspace = true
+tokio = { workspace = true, features = ["full"] }
+tokio-util = { workspace = true, features = ["codec"] }
+tokio-stream.workspace = true
+futures.workspace = true
+
+log.workspace = true
